@@ -4,10 +4,10 @@
         <!-- NOTE: If the included file already contains a version tag, remove the version tag here, else uncomment to enable. -->
         <!--<version>3</version>-->
         <enums>
-        </enums>
+std_msgs        </enums>
         <messages>
                 <message id="150" name="SATBALL_SENS">
-                        <description>This message encodes all the motor RPM measurments form the actuator board</description>
+                        <description>This message encodes IMU measurments and all the motor RPM measurments form the actuator board</description>
                         <field type="uint64_t" name="time_usec">Timestamp (microseconds since UNIX epoch or microseconds since system boot)</field>
                         <field type="int16_t[3]" name="acc">This vector contains imu_acc [ax ay az]</field>
                         <field type="int16_t[3]" name="gyro">This vector contains imu_gyro [gx gy gz]</field>
